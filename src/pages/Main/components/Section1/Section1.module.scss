@@ -1,0 +1,46 @@
+.root{
+    :global{
+        display: flex;
+        flex-direction: column;
+        padding: 120px 126px 150px 147px;
+        gap: 90px;
+        background-image: url(../../../../assets/img/Main/Sect1-img.png);
+
+        h1{
+            font-family: 'CD-Regular';
+            font-size: 80px;
+        }
+        .row{
+            margin-left: 103px;
+            display: flex;
+            flex-direction: row;
+            gap: 580px;
+
+            button{
+                height: 59px;
+                width: 271px;
+                border: none;
+                padding: 12px 33px 12px 33px;
+                background-color: #373756;
+                font-family: 'CD-Bold';
+                font-size: 28px;
+                color: #fff;
+            }
+            button:active{
+                background-color: #5e5e92;
+            }
+            .text{
+                margin-top: 46px;
+
+                p:nth-of-type(1){
+                    font-family: 'CD-Regular';
+                    font-size: 64px;
+                }
+                p:nth-of-type(2){
+                    font-family: 'CD-Regular';
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+}

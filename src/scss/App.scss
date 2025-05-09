@@ -1,8 +1,7 @@
-@import 'fonts';
-@import 'libs/normalize';
+@import './libs/normalize';
+@import './fonts';
 
 .container{
-    width: 1440px;
     margin: auto;
-
+    width: 1440px;
 }

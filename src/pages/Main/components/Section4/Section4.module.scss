@@ -1,0 +1,41 @@
+.root{
+    :global{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        .textReg{
+            display: flex;
+            flex-direction: row;
+            gap: 60px;
+
+            p:nth-of-type(1){
+                font-family: 'CD-Regular';
+                font-size: 36px;
+            }
+            p:nth-of-type(2){
+                font-family: 'CD-Regular';
+                font-size: 36px;
+                text-decoration: underline;
+            }
+        }
+        button{
+            width: 531px;
+            height: 66px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'CD-Bold';
+            font-size: 36px;
+            color: #fff;
+            border: none;
+            background-color: #373756;
+        }
+        button:active{
+            background-color: #5e5e92;
+        }
+    }
+}

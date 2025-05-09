@@ -1,0 +1,29 @@
+.root{
+    :global{
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-left: 250px;
+        padding-right: 250px;
+        gap: 125px;
+
+        .nav{
+            display: flex;
+            flex-direction: row;
+            gap: 84px;
+
+            p{
+                font-family: 'CD-Regular';
+                font-size: 24px;
+                text-wrap: nowrap;
+            }
+        }
+        .menu{
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+        }
+    }
+}

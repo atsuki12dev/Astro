@@ -1,0 +1,38 @@
+.root{
+    :global{
+        padding: 79px 19px 69px 19px;
+        display: flex;
+        flex-direction: column;
+        gap: 73px;
+
+        .title{
+            margin-left: 129px;
+
+            h1{
+                font-family: 'CD-Regular';
+                font-size: 64px;
+            }
+        }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            gap: 115px;
+
+            .card{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h1{
+                    font-family: 'CD-Regular';
+                    font-size: 20px;
+                }
+                p{
+                    font-family: 'CD-Bold';
+                    font-size: 24px; 
+                }
+            }
+            
+        }
+    }
+}
