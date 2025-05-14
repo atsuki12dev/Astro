@@ -16,6 +16,29 @@ import AboutUs from './pages/AboutUs';
 import Contacts from './pages/Contacts';
 
 function App() {
+  const CartValue = [
+
+  ];
+
+  function addCartValue(id, title, price){
+    CartValue.push({
+      "id": id,
+      "title": title,
+      "price": price
+    });
+  }
+  function removeCartValue(index){
+    CartValue.splice(obj => obj.id == index ? obj.id : index, 1);
+  }
+
+  addCartValue(0, "title1", 2500);
+  addCartValue(1, "title2", 3500);
+  addCartValue(2, "title3", 4500);
+
+  removeCartValue(1);
+
+  console.log(CartValue);
+
   return (
     <div className="container">
       <Header />

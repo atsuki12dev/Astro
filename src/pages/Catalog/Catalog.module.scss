@@ -1,5 +1,12 @@
 .root{
     :global{
-        color: #000;
+        .cards{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 90px;
+        }
     }
 }

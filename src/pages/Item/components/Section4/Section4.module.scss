@@ -1,0 +1,103 @@
+.root{
+    :global{
+        margin-top: 119px;
+        display: flex;
+        flex-direction: column;
+        gap: 68px;
+        align-items: center;
+        margin-bottom: 114px;
+
+        h1{
+            font-family: 'CD-Regular';
+            font-size: 64px;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            gap: 128px;
+            align-items: center;
+
+            .cards{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    padding: 30px;
+                    background-color: rgba(231, 231, 231, 0.26);
+                    border: 1px solid rgb(192, 192, 192);
+
+                    .title{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 30px;
+                        align-items: center;
+
+                        h1{
+                            font-family: 'CD-Bold';
+                            font-size: 24px;
+                        }
+                        p{
+                            font-family: 'CD-Regular';
+                            font-size: 16px;
+                        }
+                    }
+                    img{
+                        width: 110px;
+                        height: 20px;
+                    }
+                    p{
+                        font-family: 'CD-Regular';
+                        font-size: 20px;
+                    }
+                }
+            }
+            .result{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding: 30px;
+                background-color: rgba(231, 231, 231, 0.26);
+                border: 1px solid rgb(192, 192, 192);
+
+                .title{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 80px;
+
+                    img{
+                        width: 110px;
+                        height: 20px;
+                    }
+                }
+                h1{
+                    font-family: 'CD-Bold';
+                    font-size: 24px;
+                }
+                p{
+                    font-family: 'CD-Regular';
+                    font-size: 24px;
+                }
+            }
+        }
+        button{
+            border: 0;
+            background-color: #373756;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 278px;
+            height: 45px;
+            font-size: 24px;
+            color: #fff;
+            font-family: 'CD-Bold';
+            margin-left: -300px;
+        }
+        button:active{
+            background-color: #515180;
+        }
+    }
+}

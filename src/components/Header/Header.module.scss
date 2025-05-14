@@ -18,12 +18,21 @@
                 font-family: 'CD-Regular';
                 font-size: 24px;
                 text-wrap: nowrap;
+                cursor: pointer;
             }
         }
         .menu{
             display: flex;
             flex-direction: row;
             gap: 24px;
+
+            img{
+                cursor: pointer;
+            }
         }
     }
+}
+
+@media(max-width: 744px){
+    
 }

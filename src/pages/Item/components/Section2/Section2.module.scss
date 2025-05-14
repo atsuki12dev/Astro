@@ -1,0 +1,37 @@
+.root{
+    :global{
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 112px;
+
+        .menu{
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            height: 66px;
+
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'CD-Regular';
+                font-size: 36px;
+                border: 0;
+                background-color: #fff;
+                padding: 12px;
+            }
+            div:nth-of-type(2){
+                background-color: #373756;
+                color: #fff;
+                font-family: 'CD-Bold';
+            }
+        }
+        p{
+            width: 1142px;
+            font-family: 'CD-Regular';
+            font-size: 36px;
+        }
+    }
+}

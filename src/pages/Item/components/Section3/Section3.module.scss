@@ -1,0 +1,14 @@
+.root{
+    :global{
+        margin-top: 111px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 88px;
+
+        h1{
+            font-family: 'CD-Regular';
+            font-size: 64px;
+        }
+    }
+}

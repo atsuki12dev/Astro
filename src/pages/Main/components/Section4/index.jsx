@@ -1,14 +1,16 @@
 import React from 'react';
 import style from './Section4.module.scss';
 
+import { Link } from 'react-router-dom';
+
 function Section4() {
   return (
     <div className={style.root}>
       <div className="textReg">
         <p>Впервые здесь?</p>
-        <p>Зарегистрироваться</p>
+        <Link to='/Reg'><p>Зарегистрироваться</p></Link>
       </div>
-      <button>Войти</button>
+      <Link to='/Auth'><button>Войти</button></Link>
     </div>
   )
 }

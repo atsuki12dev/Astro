@@ -36,3 +36,37 @@
         }
     }
 }
+@media(max-width: 744px){
+    .root{
+        :global{
+            .cards{
+                margin-left: 300px;
+                flex-wrap: wrap;
+                column-gap: 260px;
+            }
+        }
+    }
+}
+@media(max-width: 390px){
+    .root{
+        :global{
+            .cards{
+                margin: 0;
+                justify-content: center;
+                flex-wrap: wrap;
+                column-gap: 700px;
+
+                .card{
+                    width: 700px;
+
+                    h1{
+                        font-size: 50px;
+                    }
+                    p{
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
+    }
+}

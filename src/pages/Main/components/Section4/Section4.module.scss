@@ -20,6 +20,7 @@
                 font-family: 'CD-Regular';
                 font-size: 36px;
                 text-decoration: underline;
+                cursor: pointer;
             }
         }
         button{
@@ -33,6 +34,7 @@
             color: #fff;
             border: none;
             background-color: #373756;
+            cursor: pointer;
         }
         button:active{
             background-color: #5e5e92;
