@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Astro/static/css/main.6cbadb32.css",
-    "main.js": "/Astro/static/js/main.44fd9ba9.js",
+    "main.js": "/Astro/static/js/main.b650f825.js",
     "static/media/banner.png": "/Astro/static/media/banner.a8604075a1db600b960f.png",
     "static/media/Sect1-img.png": "/Astro/static/media/Sect1-img.581e67f1adfb3fac3af8.png",
     "static/media/Sect3-img1.png": "/Astro/static/media/Sect3-img1.b6f5aad4fcf5981283e5.png",
@@ -35,10 +35,10 @@
     "static/media/FAQ.png": "/Astro/static/media/FAQ.64e022bea6a78ae19ea1.png",
     "index.html": "/Astro/index.html",
     "main.6cbadb32.css.map": "/Astro/static/css/main.6cbadb32.css.map",
-    "main.44fd9ba9.js.map": "/Astro/static/js/main.44fd9ba9.js.map"
+    "main.b650f825.js.map": "/Astro/static/js/main.b650f825.js.map"
   },
   "entrypoints": [
     "static/css/main.6cbadb32.css",
-    "static/js/main.44fd9ba9.js"
+    "static/js/main.b650f825.js"
   ]
 }
