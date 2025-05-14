@@ -8,9 +8,9 @@ function Section4() {
     <div className={style.root}>
       <div className="textReg">
         <p>Впервые здесь?</p>
-        <Link to='/Reg'><p>Зарегистрироваться</p></Link>
+        <Link to='/Astro/Reg'><p>Зарегистрироваться</p></Link>
       </div>
-      <Link to='/Auth'><button>Войти</button></Link>
+      <Link to='/Astro/Auth'><button>Войти</button></Link>
     </div>
   )
 }

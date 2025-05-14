@@ -8,7 +8,7 @@ function Section1() {
     <div className={style.root}>
       <h1>Новая коллекция</h1>
       <div className="row">
-        <Link to='/Catalog'><button>купить сейчас</button></Link>
+        <Link to='/Astro/Catalog'><button>купить сейчас</button></Link>
         <div className="text">
           <p>24/25</p>
           <p>весна-лето</p>

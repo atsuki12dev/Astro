@@ -44,15 +44,15 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path='/' element={<Main />} />
-        <Route path='/Reg' element={<Reg />} />
-        <Route path='/Auth' element={<Auth />} />
-        <Route path='/Catalog' element={<Catalog />} />
-        <Route path='/Item' element={<Item />} />
-        <Route path='/Cart' element={<Cart />} />
-        <Route path='/Profile' element={<Profile />} />
-        <Route path='/AboutUs' element={<AboutUs />} />
-        <Route path='/Contacts' element={<Contacts />} />
+        <Route path='/Astro/' element={<Main />} />
+        <Route path='/Astro/Reg' element={<Reg />} />
+        <Route path='/Astro/Auth' element={<Auth />} />
+        <Route path='/Astro/Catalog' element={<Catalog />} />
+        <Route path='/Astro/Item' element={<Item />} />
+        <Route path='/Astro/Cart' element={<Cart />} />
+        <Route path='/Astro/Profile' element={<Profile />} />
+        <Route path='/Astro/AboutUs' element={<AboutUs />} />
+        <Route path='/Astro/Contacts' element={<Contacts />} />
       </Routes>
       
       <Footer />
