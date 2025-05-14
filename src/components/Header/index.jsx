@@ -9,17 +9,17 @@ import profile from '../../assets/img/Profile.png';
 function Header() {
   return (
     <div className={style.root}>
-        <Link to='/'><img src={logo} alt="logo" /></Link>
+        <Link to='/Astro/'><img src={logo} alt="logo" /></Link>
         <div className="nav">
-            <Link to='/'><p>Главная</p></Link>
-            <Link to='/Catalog'><p>Каталог</p></Link>
-            <Link to='/Item'><p>Товары</p></Link>
-            <Link to='/AboutUs'><p>О нас</p></Link>
-            <Link to='/Contacts'><p>Контакты</p></Link>
+            <Link to='/Astro/'><p>Главная</p></Link>
+            <Link to='/Astro/Catalog'><p>Каталог</p></Link>
+            <Link to='/Astro/Item'><p>Товары</p></Link>
+            <Link to='/Astro/AboutUs'><p>О нас</p></Link>
+            <Link to='/Astro/Contacts'><p>Контакты</p></Link>
         </div>
         <div className="menu">
-            <Link to='/Cart'><img src={cart} alt="cart" /></Link>
-            <Link to='/Profile'><img src={profile} alt="profile" /></Link>
+            <Link to='/Astro/Cart'><img src={cart} alt="cart" /></Link>
+            <Link to='/Astro/Profile'><img src={profile} alt="profile" /></Link>
         </div>
     </div>
   )
